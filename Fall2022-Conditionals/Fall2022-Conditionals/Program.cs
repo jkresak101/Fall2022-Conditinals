@@ -1,4 +1,5 @@
-﻿var isSunny = true;
+﻿
+var isSunny = true;
 var isRaining = false;
 var isCold = false;
 var temp = 75;
@@ -42,3 +43,21 @@ moodRating = isHappy ? 100 : -100;
 
 moodRating = moodRating + 1;
 moodRating += 1;
+
+string response = Console.ReadLine();
+
+
+var response = "Good Day!";
+
+if (5 > 7 )
+{
+    Console.WriteLine("It's Sunny Dummy!");
+}
+else if (isSunny && temp >= 65)
+{
+    Console.WriteLine("it's stinky and sweet");
+}
+else
+{
+    Console.WriteLine("It's Not, Its Dark and Scary :(");
+}
